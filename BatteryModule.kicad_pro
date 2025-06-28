@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -483,7 +483,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.6,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -513,6 +513,10 @@
       {
         "netclass": "Power",
         "pattern": "VUSB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GBAT"
       }
     ]
   },
@@ -631,6 +635,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -647,6 +659,14 @@
     [
       "31b6c323-c569-49bb-be2a-0e0809977ca4",
       "Root"
+    ],
+    [
+      "0dd6817b-d244-4daa-88db-7eccc4027ce1",
+      "Battery"
+    ],
+    [
+      "860ba1b3-15a5-41eb-845b-167d81e21ddf",
+      "Regulator"
     ]
   ],
   "text_variables": {}
