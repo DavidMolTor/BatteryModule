@@ -7,7 +7,7 @@
 	(title_block
 		(title "BATTERY MODULE")
 		(date "2025-03-27")
-		(rev "1.1")
+		(rev "1.2")
 		(company "Chapuzas S.L.")
 	)
 	(lib_symbols
@@ -2767,7 +2767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "173a4c38-c661-4144-a0b5-c3f5f1ba6445")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -2776,8 +2776,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "102K"
-			(at 128.27 128.27 0)
+		(property "Value" "10K"
+			(at 129.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2821,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2907,7 +2907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b4c7b3-4c17-495e-bc0f-2919c9d46619")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -2957,7 +2957,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295eda1f-25a1-42eb-b1a6-decbc4a9f508")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 152.4 57.15 0)
 			(effects
 				(font
@@ -3024,7 +3024,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4368c568-8fdb-411d-bd63-1e774a125490")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e66408f-c2c7-4647-91d8-35e9ba4f1b86")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 149.86 60.96 90)
 			(effects
 				(font
@@ -3532,7 +3532,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "120K"
 			(at 149.86 63.5 90)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3668,7 +3668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665f8edb-d379-46c8-9bdf-bfa27b8ab9ae")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -3718,7 +3718,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3734,7 +3734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68144882-1ff2-4a4c-b981-f9c989e82a8a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR034"
 			(at 175.26 115.57 0)
 			(effects
 				(font
@@ -3785,7 +3785,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR044")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3870,7 +3870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787a3bf7-a7f8-42b1-8cfe-bb91fc24cf08")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 128.27 80.01 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3936,7 +3936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79007885-be37-417b-bf99-7b560dffdf5f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 143.51 80.01 0)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4002,7 +4002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f545994-a93d-44ff-92e3-a41e038cc09b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b840623-0512-444f-9902-cff895282ffc")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 163.83 139.7 0)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a219d87a-d967-4158-8df8-f2767e0a46d6")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 106.68 52.07 0)
 			(effects
 				(font
@@ -4405,7 +4405,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44d595d-f99e-4ca6-9c7c-da4d2f70c465")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 153.67 139.7 0)
 			(effects
 				(font
@@ -4471,7 +4471,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a649c3a5-ea72-46dc-8d0e-49c8373f9660")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -4537,7 +4537,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4553,7 +4553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf9469e-5411-49f4-a2cd-7790654b3d97")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -4603,7 +4603,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4758,7 +4758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15452cd-a01e-487d-a0bf-a536ea753151")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 142.24 109.22 90)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "102K"
 			(at 142.24 111.76 90)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4964,7 +4964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dda160c3-ed40-4628-8493-399e13e8f1c4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 148.59 114.3 0)
 			(effects
 				(font
@@ -5014,7 +5014,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e104342e-e3b7-43b2-9249-142ab07e70b1")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -5038,8 +5038,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120K"
-			(at 135.89 64.77 0)
+		(property "Value" "10K"
+			(at 137.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +5083,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5099,7 +5099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e39a678e-510d-4d81-abf9-97b36f7f4ff0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 179.07 139.7 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5165,7 +5165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a4ebca-4b75-4793-a286-8549a7b4b90a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 105.41 80.01 0)
 			(effects
 				(font
@@ -5215,7 +5215,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eefa543f-7d9a-4652-bcad-70621a5923e3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -5282,7 +5282,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d74f2c-b02a-4ca7-a9cd-d299b1b32464")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -5348,7 +5348,7 @@
 		(instances
 			(project "BatteryModule"
 				(path "/31b6c323-c569-49bb-be2a-0e0809977ca4/860ba1b3-15a5-41eb-845b-167d81e21ddf"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

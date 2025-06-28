@@ -517,6 +517,10 @@
       {
         "netclass": "Power",
         "pattern": "GBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VREG"
       }
     ]
   },

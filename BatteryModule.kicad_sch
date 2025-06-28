@@ -7,7 +7,7 @@
 	(title_block
 		(title "BATTERY MODULE")
 		(date "2025-03-27")
-		(rev "1.1")
+		(rev "1.2")
 		(company "Chapuzas S.L.")
 	)
 	(lib_symbols)
